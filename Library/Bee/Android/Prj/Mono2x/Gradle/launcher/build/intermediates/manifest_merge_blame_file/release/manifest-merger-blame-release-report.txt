@@ -1,0 +1,318 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ChrisD.firebase.test"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:3-163
+13        android:anyDensity="true"
+13-->C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:135-160
+14        android:largeScreens="true"
+14-->C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:78-105
+15        android:normalScreens="true"
+15-->C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:49-77
+16        android:smallScreens="true"
+16-->C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:21-48
+17        android:xlargeScreens="true" />
+17-->C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:106-134
+18
+19    <uses-feature android:glEsVersion="0x00030000" />
+19-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:5-54
+19-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:19-51
+20    <uses-feature
+20-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:13:5-15:36
+21        android:name="android.hardware.vulkan.version"
+21-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:9-55
+22        android:required="false" />
+22-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:15:9-33
+23
+24    <uses-permission android:name="android.permission.INTERNET" />
+24-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:17:5-67
+24-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:17:22-64
+25    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+25-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:5-79
+25-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:22-76
+26
+27    <uses-feature
+27-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:20:5-22:36
+28        android:name="android.hardware.touchscreen"
+28-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:21:9-52
+29        android:required="false" />
+29-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:22:9-33
+30    <uses-feature
+30-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:23:5-25:36
+31        android:name="android.hardware.touchscreen.multitouch"
+31-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:24:9-63
+32        android:required="false" />
+32-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:25:9-33
+33    <uses-feature
+33-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:26:5-28:36
+34        android:name="android.hardware.touchscreen.multitouch.distinct"
+34-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:27:9-72
+35        android:required="false" /> <!-- Include required permissions for Advertising Id -->
+35-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:28:9-33
+36    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+36-->[:com.google.android.gms.play-services-ads-identifier-18.0.0:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\b5d89b627fa174038c4f6556bb02a4ca\com.google.android.gms.play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+36-->[:com.google.android.gms.play-services-ads-identifier-18.0.0:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\b5d89b627fa174038c4f6556bb02a4ca\com.google.android.gms.play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:22-76
+37    <uses-permission android:name="android.permission.WAKE_LOCK" />
+37-->[:com.google.android.gms.play-services-measurement-api-21.0.0:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\61961f6811d30531dafa31c82849c674\com.google.android.gms.play-services-measurement-api-21.0.0\AndroidManifest.xml:24:5-68
+37-->[:com.google.android.gms.play-services-measurement-api-21.0.0:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\61961f6811d30531dafa31c82849c674\com.google.android.gms.play-services-measurement-api-21.0.0\AndroidManifest.xml:24:22-65
+38    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+38-->[:com.google.android.gms.play-services-measurement-impl-21.0.0:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\c886e08c7b4f4dd22aa0801e96464ffd\com.google.android.gms.play-services-measurement-impl-21.0.0\AndroidManifest.xml:26:5-110
+38-->[:com.google.android.gms.play-services-measurement-impl-21.0.0:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\c886e08c7b4f4dd22aa0801e96464ffd\com.google.android.gms.play-services-measurement-impl-21.0.0\AndroidManifest.xml:26:22-107
+39
+40    <application
+40-->C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:3-83
+41        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+41-->[:androidx.core.core-1.2.0:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\4527d81fa1dab2c4adef56282f6f51b4\androidx.core.core-1.2.0\AndroidManifest.xml:24:18-86
+42        android:extractNativeLibs="true"
+42-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:18-50
+43        android:icon="@mipmap/app_icon"
+43-->C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:49-80
+44        android:label="@string/app_name" >
+44-->C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:16-48
+45        <activity
+45-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:31:9-51:20
+46            android:name="com.unity3d.player.UnityPlayerActivity"
+46-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:32:13-66
+47            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+47-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:33:13-194
+48            android:hardwareAccelerated="false"
+48-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:34:13-48
+49            android:launchMode="singleTask"
+49-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:13-44
+50            android:resizeableActivity="false"
+50-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:36:13-47
+51            android:screenOrientation="fullSensor"
+51-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:13-51
+52            android:theme="@style/UnityThemeSelector" >
+52-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:38:13-54
+53            <intent-filter>
+53-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:13-43:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:40:17-69
+54-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:40:25-66
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:17-77
+56-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:27-74
+57            </intent-filter>
+58
+59            <meta-data
+59-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:45:13-47:40
+60                android:name="unityplayer.UnityActivity"
+60-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:46:17-57
+61                android:value="true" />
+61-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:17-37
+62            <meta-data
+62-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:48:13-50:40
+63                android:name="android.notch_support"
+63-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:49:17-53
+64                android:value="true" />
+64-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:50:17-37
+65        </activity>
+66
+67        <meta-data
+67-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:53:9-55:33
+68            android:name="unity.splash-mode"
+68-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:54:13-45
+69            android:value="0" />
+69-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:55:13-30
+70        <meta-data
+70-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:56:9-58:36
+71            android:name="unity.splash-enable"
+71-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:57:13-47
+72            android:value="True" />
+72-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:58:13-33
+73        <meta-data
+73-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:59:9-61:36
+74            android:name="unity.launch-fullscreen"
+74-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:60:13-51
+75            android:value="True" />
+75-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:61:13-33
+76        <meta-data
+76-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:62:9-64:37
+77            android:name="unity.allow-resizable-window"
+77-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:63:13-56
+78            android:value="False" />
+78-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:64:13-34
+79        <meta-data
+79-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:65:9-67:50
+80            android:name="notch.config"
+80-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:66:13-40
+81            android:value="portrait|landscape" />
+81-->[:unityLibrary] C:\Users\cgd08\Desktop\CPT-200\Firebase Test Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:67:13-47
+82
+83        <service
+83-->[:com.google.firebase.firebase-database-20.0.5:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\32dd1cfc70bda2905d1df5fd19713d01\com.google.firebase.firebase-database-20.0.5\AndroidManifest.xml:29:9-35:19
+84            android:name="com.google.firebase.components.ComponentDiscoveryService"
+84-->[:com.google.firebase.firebase-database-20.0.5:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\32dd1cfc70bda2905d1df5fd19713d01\com.google.firebase.firebase-database-20.0.5\AndroidManifest.xml:30:13-84
+85            android:directBootAware="true"
+85-->[:com.google.firebase.firebase-common-20.1.1:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\5fe48ace13839ded6330a5cc09c1e884\com.google.firebase.firebase-common-20.1.1\AndroidManifest.xml:21:86-116
+86            android:exported="false" >
+86-->[:com.google.firebase.firebase-database-20.0.5:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\32dd1cfc70bda2905d1df5fd19713d01\com.google.firebase.firebase-database-20.0.5\AndroidManifest.xml:31:13-37
+87            <meta-data
+87-->[:com.google.firebase.firebase-database-20.0.5:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\32dd1cfc70bda2905d1df5fd19713d01\com.google.firebase.firebase-database-20.0.5\AndroidManifest.xml:32:13-34:85
+88                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+88-->[:com.google.firebase.firebase-database-20.0.5:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\32dd1cfc70bda2905d1df5fd19713d01\com.google.firebase.firebase-database-20.0.5\AndroidManifest.xml:33:17-109
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[:com.google.firebase.firebase-database-20.0.5:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\32dd1cfc70bda2905d1df5fd19713d01\com.google.firebase.firebase-database-20.0.5\AndroidManifest.xml:34:17-82
+90            <meta-data
+90-->[:com.google.firebase.firebase-auth-21.0.5:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\9b57ff8db6cc17f3a20ebda7c514bdb2\com.google.firebase.firebase-auth-21.0.5\AndroidManifest.xml:67:13-69:85
+91                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+91-->[:com.google.firebase.firebase-auth-21.0.5:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\9b57ff8db6cc17f3a20ebda7c514bdb2\com.google.firebase.firebase-auth-21.0.5\AndroidManifest.xml:68:17-109
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[:com.google.firebase.firebase-auth-21.0.5:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\9b57ff8db6cc17f3a20ebda7c514bdb2\com.google.firebase.firebase-auth-21.0.5\AndroidManifest.xml:69:17-82
+93            <meta-data
+93-->[:com.google.android.gms.play-services-measurement-api-21.0.0:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\61961f6811d30531dafa31c82849c674\com.google.android.gms.play-services-measurement-api-21.0.0\AndroidManifest.xml:31:13-33:85
+94                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+94-->[:com.google.android.gms.play-services-measurement-api-21.0.0:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\61961f6811d30531dafa31c82849c674\com.google.android.gms.play-services-measurement-api-21.0.0\AndroidManifest.xml:32:17-139
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[:com.google.android.gms.play-services-measurement-api-21.0.0:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\61961f6811d30531dafa31c82849c674\com.google.android.gms.play-services-measurement-api-21.0.0\AndroidManifest.xml:33:17-82
+96            <meta-data
+96-->[:com.google.firebase.firebase-installations-17.0.1:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\d575652e0196f6e060dfc7efd05108d5\com.google.firebase.firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
+97                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+97-->[:com.google.firebase.firebase-installations-17.0.1:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\d575652e0196f6e060dfc7efd05108d5\com.google.firebase.firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[:com.google.firebase.firebase-installations-17.0.1:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\d575652e0196f6e060dfc7efd05108d5\com.google.firebase.firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
+99        </service>
+100
+101        <meta-data
+101-->[:com.google.android.gms.play-services-basement-18.0.0:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\c158dbe6bad5056979dbf1ee0625408f\com.google.android.gms.play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+102            android:name="com.google.android.gms.version"
+102-->[:com.google.android.gms.play-services-basement-18.0.0:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\c158dbe6bad5056979dbf1ee0625408f\com.google.android.gms.play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+103            android:value="@integer/google_play_services_version" />
+103-->[:com.google.android.gms.play-services-basement-18.0.0:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\c158dbe6bad5056979dbf1ee0625408f\com.google.android.gms.play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+104
+105        <activity
+105-->[:com.google.firebase.firebase-auth-21.0.5:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\9b57ff8db6cc17f3a20ebda7c514bdb2\com.google.firebase.firebase-auth-21.0.5\AndroidManifest.xml:27:9-44:20
+106            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+106-->[:com.google.firebase.firebase-auth-21.0.5:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\9b57ff8db6cc17f3a20ebda7c514bdb2\com.google.firebase.firebase-auth-21.0.5\AndroidManifest.xml:28:13-80
+107            android:excludeFromRecents="true"
+107-->[:com.google.firebase.firebase-auth-21.0.5:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\9b57ff8db6cc17f3a20ebda7c514bdb2\com.google.firebase.firebase-auth-21.0.5\AndroidManifest.xml:29:13-46
+108            android:exported="true"
+108-->[:com.google.firebase.firebase-auth-21.0.5:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\9b57ff8db6cc17f3a20ebda7c514bdb2\com.google.firebase.firebase-auth-21.0.5\AndroidManifest.xml:30:13-36
+109            android:launchMode="singleTask"
+109-->[:com.google.firebase.firebase-auth-21.0.5:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\9b57ff8db6cc17f3a20ebda7c514bdb2\com.google.firebase.firebase-auth-21.0.5\AndroidManifest.xml:31:13-44
+110            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+110-->[:com.google.firebase.firebase-auth-21.0.5:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\9b57ff8db6cc17f3a20ebda7c514bdb2\com.google.firebase.firebase-auth-21.0.5\AndroidManifest.xml:32:13-72
+111            <intent-filter>
+111-->[:com.google.firebase.firebase-auth-21.0.5:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\9b57ff8db6cc17f3a20ebda7c514bdb2\com.google.firebase.firebase-auth-21.0.5\AndroidManifest.xml:33:13-43:29
+112                <action android:name="android.intent.action.VIEW" />
+112-->[:com.google.firebase.firebase-auth-21.0.5:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\9b57ff8db6cc17f3a20ebda7c514bdb2\com.google.firebase.firebase-auth-21.0.5\AndroidManifest.xml:34:17-69
+112-->[:com.google.firebase.firebase-auth-21.0.5:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\9b57ff8db6cc17f3a20ebda7c514bdb2\com.google.firebase.firebase-auth-21.0.5\AndroidManifest.xml:34:25-66
+113
+114                <category android:name="android.intent.category.DEFAULT" />
+114-->[:com.google.firebase.firebase-auth-21.0.5:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\9b57ff8db6cc17f3a20ebda7c514bdb2\com.google.firebase.firebase-auth-21.0.5\AndroidManifest.xml:36:17-76
+114-->[:com.google.firebase.firebase-auth-21.0.5:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\9b57ff8db6cc17f3a20ebda7c514bdb2\com.google.firebase.firebase-auth-21.0.5\AndroidManifest.xml:36:27-73
+115                <category android:name="android.intent.category.BROWSABLE" />
+115-->[:com.google.firebase.firebase-auth-21.0.5:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\9b57ff8db6cc17f3a20ebda7c514bdb2\com.google.firebase.firebase-auth-21.0.5\AndroidManifest.xml:37:17-78
+115-->[:com.google.firebase.firebase-auth-21.0.5:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\9b57ff8db6cc17f3a20ebda7c514bdb2\com.google.firebase.firebase-auth-21.0.5\AndroidManifest.xml:37:27-75
+116
+117                <data
+117-->[:com.google.firebase.firebase-auth-21.0.5:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\9b57ff8db6cc17f3a20ebda7c514bdb2\com.google.firebase.firebase-auth-21.0.5\AndroidManifest.xml:39:17-42:51
+118                    android:host="firebase.auth"
+118-->[:com.google.firebase.firebase-auth-21.0.5:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\9b57ff8db6cc17f3a20ebda7c514bdb2\com.google.firebase.firebase-auth-21.0.5\AndroidManifest.xml:40:21-49
+119                    android:path="/"
+119-->[:com.google.firebase.firebase-auth-21.0.5:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\9b57ff8db6cc17f3a20ebda7c514bdb2\com.google.firebase.firebase-auth-21.0.5\AndroidManifest.xml:41:21-37
+120                    android:scheme="genericidp" />
+120-->[:com.google.firebase.firebase-auth-21.0.5:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\9b57ff8db6cc17f3a20ebda7c514bdb2\com.google.firebase.firebase-auth-21.0.5\AndroidManifest.xml:42:21-48
+121            </intent-filter>
+122        </activity>
+123        <activity
+123-->[:com.google.firebase.firebase-auth-21.0.5:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\9b57ff8db6cc17f3a20ebda7c514bdb2\com.google.firebase.firebase-auth-21.0.5\AndroidManifest.xml:45:9-62:20
+124            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+124-->[:com.google.firebase.firebase-auth-21.0.5:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\9b57ff8db6cc17f3a20ebda7c514bdb2\com.google.firebase.firebase-auth-21.0.5\AndroidManifest.xml:46:13-79
+125            android:excludeFromRecents="true"
+125-->[:com.google.firebase.firebase-auth-21.0.5:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\9b57ff8db6cc17f3a20ebda7c514bdb2\com.google.firebase.firebase-auth-21.0.5\AndroidManifest.xml:47:13-46
+126            android:exported="true"
+126-->[:com.google.firebase.firebase-auth-21.0.5:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\9b57ff8db6cc17f3a20ebda7c514bdb2\com.google.firebase.firebase-auth-21.0.5\AndroidManifest.xml:48:13-36
+127            android:launchMode="singleTask"
+127-->[:com.google.firebase.firebase-auth-21.0.5:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\9b57ff8db6cc17f3a20ebda7c514bdb2\com.google.firebase.firebase-auth-21.0.5\AndroidManifest.xml:49:13-44
+128            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+128-->[:com.google.firebase.firebase-auth-21.0.5:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\9b57ff8db6cc17f3a20ebda7c514bdb2\com.google.firebase.firebase-auth-21.0.5\AndroidManifest.xml:50:13-72
+129            <intent-filter>
+129-->[:com.google.firebase.firebase-auth-21.0.5:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\9b57ff8db6cc17f3a20ebda7c514bdb2\com.google.firebase.firebase-auth-21.0.5\AndroidManifest.xml:51:13-61:29
+130                <action android:name="android.intent.action.VIEW" />
+130-->[:com.google.firebase.firebase-auth-21.0.5:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\9b57ff8db6cc17f3a20ebda7c514bdb2\com.google.firebase.firebase-auth-21.0.5\AndroidManifest.xml:34:17-69
+130-->[:com.google.firebase.firebase-auth-21.0.5:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\9b57ff8db6cc17f3a20ebda7c514bdb2\com.google.firebase.firebase-auth-21.0.5\AndroidManifest.xml:34:25-66
+131
+132                <category android:name="android.intent.category.DEFAULT" />
+132-->[:com.google.firebase.firebase-auth-21.0.5:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\9b57ff8db6cc17f3a20ebda7c514bdb2\com.google.firebase.firebase-auth-21.0.5\AndroidManifest.xml:36:17-76
+132-->[:com.google.firebase.firebase-auth-21.0.5:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\9b57ff8db6cc17f3a20ebda7c514bdb2\com.google.firebase.firebase-auth-21.0.5\AndroidManifest.xml:36:27-73
+133                <category android:name="android.intent.category.BROWSABLE" />
+133-->[:com.google.firebase.firebase-auth-21.0.5:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\9b57ff8db6cc17f3a20ebda7c514bdb2\com.google.firebase.firebase-auth-21.0.5\AndroidManifest.xml:37:17-78
+133-->[:com.google.firebase.firebase-auth-21.0.5:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\9b57ff8db6cc17f3a20ebda7c514bdb2\com.google.firebase.firebase-auth-21.0.5\AndroidManifest.xml:37:27-75
+134
+135                <data
+135-->[:com.google.firebase.firebase-auth-21.0.5:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\9b57ff8db6cc17f3a20ebda7c514bdb2\com.google.firebase.firebase-auth-21.0.5\AndroidManifest.xml:39:17-42:51
+136                    android:host="firebase.auth"
+136-->[:com.google.firebase.firebase-auth-21.0.5:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\9b57ff8db6cc17f3a20ebda7c514bdb2\com.google.firebase.firebase-auth-21.0.5\AndroidManifest.xml:40:21-49
+137                    android:path="/"
+137-->[:com.google.firebase.firebase-auth-21.0.5:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\9b57ff8db6cc17f3a20ebda7c514bdb2\com.google.firebase.firebase-auth-21.0.5\AndroidManifest.xml:41:21-37
+138                    android:scheme="recaptcha" />
+138-->[:com.google.firebase.firebase-auth-21.0.5:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\9b57ff8db6cc17f3a20ebda7c514bdb2\com.google.firebase.firebase-auth-21.0.5\AndroidManifest.xml:42:21-48
+139            </intent-filter>
+140        </activity>
+141
+142        <provider
+142-->[:com.google.firebase.firebase-common-20.1.1:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\5fe48ace13839ded6330a5cc09c1e884\com.google.firebase.firebase-common-20.1.1\AndroidManifest.xml:20:5-230
+143            android:name="com.google.firebase.provider.FirebaseInitProvider"
+143-->[:com.google.firebase.firebase-common-20.1.1:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\5fe48ace13839ded6330a5cc09c1e884\com.google.firebase.firebase-common-20.1.1\AndroidManifest.xml:20:15-79
+144            android:authorities="com.ChrisD.firebase.test.firebaseinitprovider"
+144-->[:com.google.firebase.firebase-common-20.1.1:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\5fe48ace13839ded6330a5cc09c1e884\com.google.firebase.firebase-common-20.1.1\AndroidManifest.xml:20:80-147
+145            android:directBootAware="true"
+145-->[:com.google.firebase.firebase-common-20.1.1:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\5fe48ace13839ded6330a5cc09c1e884\com.google.firebase.firebase-common-20.1.1\AndroidManifest.xml:20:148-178
+146            android:exported="false"
+146-->[:com.google.firebase.firebase-common-20.1.1:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\5fe48ace13839ded6330a5cc09c1e884\com.google.firebase.firebase-common-20.1.1\AndroidManifest.xml:20:179-203
+147            android:initOrder="100" />
+147-->[:com.google.firebase.firebase-common-20.1.1:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\5fe48ace13839ded6330a5cc09c1e884\com.google.firebase.firebase-common-20.1.1\AndroidManifest.xml:20:204-227
+148
+149        <activity
+149-->[:com.google.android.gms.play-services-base-18.0.1:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\bb6768f20d1de5ba02407f9183f06731\com.google.android.gms.play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+150            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+150-->[:com.google.android.gms.play-services-base-18.0.1:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\bb6768f20d1de5ba02407f9183f06731\com.google.android.gms.play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+151            android:exported="false"
+151-->[:com.google.android.gms.play-services-base-18.0.1:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\bb6768f20d1de5ba02407f9183f06731\com.google.android.gms.play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+152            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+152-->[:com.google.android.gms.play-services-base-18.0.1:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\bb6768f20d1de5ba02407f9183f06731\com.google.android.gms.play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+153
+154        <receiver
+154-->[:com.google.android.gms.play-services-measurement-21.0.0:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\64d32df4d083789b989d6af36aca72b0\com.google.android.gms.play-services-measurement-21.0.0\AndroidManifest.xml:29:9-33:20
+155            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+155-->[:com.google.android.gms.play-services-measurement-21.0.0:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\64d32df4d083789b989d6af36aca72b0\com.google.android.gms.play-services-measurement-21.0.0\AndroidManifest.xml:30:13-85
+156            android:enabled="true"
+156-->[:com.google.android.gms.play-services-measurement-21.0.0:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\64d32df4d083789b989d6af36aca72b0\com.google.android.gms.play-services-measurement-21.0.0\AndroidManifest.xml:31:13-35
+157            android:exported="false" >
+157-->[:com.google.android.gms.play-services-measurement-21.0.0:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\64d32df4d083789b989d6af36aca72b0\com.google.android.gms.play-services-measurement-21.0.0\AndroidManifest.xml:32:13-37
+158        </receiver>
+159
+160        <service
+160-->[:com.google.android.gms.play-services-measurement-21.0.0:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\64d32df4d083789b989d6af36aca72b0\com.google.android.gms.play-services-measurement-21.0.0\AndroidManifest.xml:35:9-38:40
+161            android:name="com.google.android.gms.measurement.AppMeasurementService"
+161-->[:com.google.android.gms.play-services-measurement-21.0.0:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\64d32df4d083789b989d6af36aca72b0\com.google.android.gms.play-services-measurement-21.0.0\AndroidManifest.xml:36:13-84
+162            android:enabled="true"
+162-->[:com.google.android.gms.play-services-measurement-21.0.0:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\64d32df4d083789b989d6af36aca72b0\com.google.android.gms.play-services-measurement-21.0.0\AndroidManifest.xml:37:13-35
+163            android:exported="false" />
+163-->[:com.google.android.gms.play-services-measurement-21.0.0:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\64d32df4d083789b989d6af36aca72b0\com.google.android.gms.play-services-measurement-21.0.0\AndroidManifest.xml:38:13-37
+164        <service
+164-->[:com.google.android.gms.play-services-measurement-21.0.0:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\64d32df4d083789b989d6af36aca72b0\com.google.android.gms.play-services-measurement-21.0.0\AndroidManifest.xml:39:9-43:72
+165            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+165-->[:com.google.android.gms.play-services-measurement-21.0.0:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\64d32df4d083789b989d6af36aca72b0\com.google.android.gms.play-services-measurement-21.0.0\AndroidManifest.xml:40:13-87
+166            android:enabled="true"
+166-->[:com.google.android.gms.play-services-measurement-21.0.0:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\64d32df4d083789b989d6af36aca72b0\com.google.android.gms.play-services-measurement-21.0.0\AndroidManifest.xml:41:13-35
+167            android:exported="false"
+167-->[:com.google.android.gms.play-services-measurement-21.0.0:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\64d32df4d083789b989d6af36aca72b0\com.google.android.gms.play-services-measurement-21.0.0\AndroidManifest.xml:42:13-37
+168            android:permission="android.permission.BIND_JOB_SERVICE" />
+168-->[:com.google.android.gms.play-services-measurement-21.0.0:] C:\Users\cgd08\.gradle\caches\transforms-2\files-2.1\64d32df4d083789b989d6af36aca72b0\com.google.android.gms.play-services-measurement-21.0.0\AndroidManifest.xml:43:13-69
+169    </application>
+170
+171</manifest>
