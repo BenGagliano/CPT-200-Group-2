@@ -6,6 +6,8 @@ The project is to establish an app that allows the user to learn and utilize tax
 
 *Any shared documants are edited on a shared google drive folder before submitted into Github to preserve the integrety of the repository*
 
+
+
 Gagliano, Ben	bg249757@my.stchas.edu
 
 Rupp, Alexander	ar243945@my.stchas.edu
