@@ -10,7 +10,7 @@ public class HttpCodeListener
     private Thread listenerThread;
     private Action<string> onCodeFetched;
 
-    private const string responseHtml = "You are now logged in to the app";
+    private const string responseHtml = "Login test successful, credentials logged in Firebase";
 
     public HttpCodeListener(int port)
     {
